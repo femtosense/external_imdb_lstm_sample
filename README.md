@@ -1,4 +1,4 @@
-# TFLite stateless LSTM sample
+# TFLite stateless unrolled LSTM sample
 
 Example of training a Keras LSTM model on the IMDB dataset, with variable sequence length and batch size, then converting to a much simpler reperesentation of the model for inference accelerators.
 
