@@ -323,7 +323,7 @@ inference_module = utils.KerasModelModule(inference_model)
 signature_name = inference_module.signature_name
 
 # Convert to TFLite via a saved model
-with tempfile.TemporaryDirectory() as dirname: #TODO use a set output dir
+with tempfile.TemporaryDirectory() as dirname: 
     # Save the TF module
     tf.saved_model.save(inference_module, dirname, signatures={signature_name: inference_module.predict_concrete})
 
