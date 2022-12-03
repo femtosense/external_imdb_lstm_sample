@@ -8,7 +8,7 @@ The model in quantized to 8x8 mode (8-bit weights, 8-bit activations).
 
 This code is provided free of use to anyone, with the hope of advancing industry benchmarks for ML inference accelerators.
 
-For questions or comments, contact Blaine Rister (blaine.rister@femtosense.ai).
+For questions or comments, use the issues page on this repo, or contact Blaine Rister (blaine.rister@femtosense.ai).
 
 ## Usage
 
