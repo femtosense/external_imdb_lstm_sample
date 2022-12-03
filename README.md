@@ -4,7 +4,7 @@ Example of training a Keras LSTM model on the IMDB dataset, with variable sequen
 
 The inference version of the model is unrolled by Keras, with a batch size and time step of 1, so it avoids many of the trickier aspects of RNNs. Specifically, it has neither state, nor control flow, nor dynamic tensor sizes. All state is explicitly managed by the user as input/output tensors.
 
-The model in quantized to 8x8 mode (8-bit weights, 8-bit activations).
+The model is quantized to 8x8 mode (8-bit weights, 8-bit activations).
 
 This code is provided free of use to anyone, with the hope of advancing industry benchmarks for ML inference accelerators.
 
