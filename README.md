@@ -1,6 +1,6 @@
 # TFLite stateless unrolled LSTM sample
 
-Example of training a Keras LSTM model on the IMDB dataset, with variable sequence length and batch size, then converting to a much simpler reperesentation of the model for inference accelerators.
+Example of training a Keras LSTM model on the IMDB dataset, with variable sequence length and batch size, then converting the model to a much simpler representation for inference accelerators.
 
 The inference version of the model is unrolled by Keras, with a batch size and time step of 1, so it avoids many of the trickier aspects of RNNs. Specifically, it has neither state, nor control flow, nor dynamic tensor sizes. All state is explicitly managed by the user as input/output tensors.
 
