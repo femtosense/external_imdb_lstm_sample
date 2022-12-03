@@ -16,4 +16,4 @@ First install the requirements with `pip install -r requirements.txt`.
 
 Then, run the program with `python run_imdb_example.py`.
 
-The program outputs a TFLite buffer, as well as a log showing the accuracy of the original TF model and the quantized TFLite version.
+The program prints a log showing the accuracy of the original TF model and the quantized TFLite version.
